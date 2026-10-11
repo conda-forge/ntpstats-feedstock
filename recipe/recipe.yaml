@@ -1,6 +1,6 @@
 context:
   name: ntpstats
-  version: "3.0.0"
+  version: "3.6.1"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: e6ba9fe5f0e67f19bb33440ad65d6c0ee0a1784df4c523fe4de99260b76954b4
+  sha256: 092bcd6c311eb31fe4e142f2f97c1fe95a50273fcf59e13796f9772db0cf104d
 
 build:
   number: 0
